@@ -26,7 +26,7 @@ namespace pizzaApp
                 Console.WriteLine("Kolik ingredienci na pizzach chces? (max 20)");
                 int input2 = Convert.ToInt32(Console.ReadLine());
 
-                if (input == 0)
+                if (input == 0 || input == 0)
                 {
                     procced = false;
                 }
@@ -34,7 +34,7 @@ namespace pizzaApp
                 {
                     for(int i = 0; i <= input; i++)
                     {
-                        for(int j = 0; j <= input2; j++)
+                        for(int j = 0; j < input2; j++)
                         {
                             number = NextNum();
 
