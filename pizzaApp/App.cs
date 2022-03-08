@@ -14,7 +14,6 @@ namespace pizzaApp
             var array = data.ToArray();
 
             List<int> listNumbers = new List<int>();
-            List<string> listPizza = new List<string>();
             int number;
 
             bool procced = true;
